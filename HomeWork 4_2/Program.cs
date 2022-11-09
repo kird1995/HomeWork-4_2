@@ -39,7 +39,7 @@ namespace HomeWork_4_2
                         for (int y = 0; y < n; y++)
                         {
                             array2[x, y] = array1[y, x];
-                            Console.Write(array2[y, x] + "\t");
+                            Console.Write(array2[x, y] + "\t");
                         }
                         Console.WriteLine();
                     }
